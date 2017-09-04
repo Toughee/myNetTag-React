@@ -13,6 +13,8 @@ Provides a brief summary of your location and device data
 ### Tools used
 
 ```
-[Animate.css](https://daneden.github.io/animate.css/) for content animation.
+React
+Babel
+Animate.css
 
 ```

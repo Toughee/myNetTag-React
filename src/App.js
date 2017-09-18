@@ -9,11 +9,6 @@ class App extends Component {
     return date.toTimeString();
   }
 
-  getBrowserData() {
-    const bData = navigator.userAgent;
-    return bData || 'Sorry. Your Browser Data is unavailable';
-  }
-
   getOS() {
     const osSys = navigator.platform;
     return osSys || 'Your OS information was not found';
@@ -26,7 +21,6 @@ class App extends Component {
           <h2>Small React app which provides you a brief 
             summary of your location and device data</h2>
                 <h4>• Your current time is {this.getDate()}</h4>
-                <h4>• Your current browser is {this.getBrowserData()}</h4>
                 <h4>• Your operating system is {this.getOS()}</h4>
         </div>
       </div>

@@ -25,10 +25,12 @@ class App extends Component {
     return (
       <div className="App animated bounceInUp">
         <div className="App-header">
-          <h2>| Small React app which provides you a brief 
+          <h2>| Small I.T tool which provides you a brief 
             summary of your device data |</h2>
                 <h4>• Your current time is {this.getDate()}</h4>
+                
                 <h4>• Your operating system is {this.getOS()}</h4>
+
         </div>
       </div>
     );

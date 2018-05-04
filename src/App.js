@@ -26,7 +26,6 @@ class App extends Component {
       <div className="App animated bounceInUp">
         <div className="App-header">
                 <h4>• Your current time is {this.getDate()}</h4>
-                <h4>• Your operating system is {this.getOS()}</h4>
         </div>
       </div>
     );

@@ -2,8 +2,8 @@
   "name": "uPetitBio",
   "version": "0.9.0",
   "description" : "Provides a small summary of your personal data. ",
-  "private": false,
-  "homepage": "https://toughee.github.io/uPetitBio/",
+  "private": true,
+  "homepage": "https://toughee.github.io/myNetTag-React/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"

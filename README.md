@@ -1,6 +1,6 @@
-# uPetitBio
+# myNetTag-React
 
-Provides a small summary of your personal data. 
+Provides a brief summary of your location and device data. 
 
 ## Information it provides
 
@@ -14,16 +14,4 @@ React
 Babel
 Animate.css
 
-```
-
-### Installing
-
-```
-npm install uPetitBio
-```
-
-#### Using it locally 
-
-```
-npm start
 ```

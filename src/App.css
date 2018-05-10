@@ -2,6 +2,8 @@
 
 .App {
   text-align: center;
+  background-color: #9c0707;
+
 }
 .App-header {
   background-color: #9c0707;
@@ -9,6 +11,9 @@
   padding: 30px;
   color: #FFFFFF;
 }
+
+
+
 /*
 Second
 */
@@ -52,19 +57,18 @@ h2 {
 h4 {
   font-family: 'Helvetica';
   text-align: center;
-  color: #9c0707;
-  font-size: 1.4rem;
+  color: #000000;
+  font-size: 2rem;
   padding-left: 30px;
   padding-right: 30px;
-  background: #FFFFFF;
 }
 p {
   font-family: 'Helvetica';
   text-align: center;
   color: #FFFFFF;
-  font-size: 1.25vw;
+  font-size: 2vw;
   margin-left: 100px;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 70px 0px 70px;
   margin-right: 100px;
 }
 /*

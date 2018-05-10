@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 
-
-
 class App extends Component {
 
   getDate() {
@@ -20,13 +18,15 @@ class App extends Component {
     return osSys || 'Your OS information was not found';
   }
   
-
   render() {
     return (
       <div className="App animated bounceInUp">
         <div className="App-header">
                 <h4>• Your current time is {this.getDate()}</h4>
                 <h4>• Your operating system is {this.getOS()}</h4>
+                {/*<h4>• Your browser is {this.getBrowserData()}</h4>
+                <h4>• Your browsers uptime is </h4>
+                <h4>• You are currently viewing uPetitBio at City/State</h4>*/}
         </div>
       </div>
     );

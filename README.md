@@ -1,29 +1,22 @@
 # uPetitBio
 
-Provides a small summary of your personal data. 
+Provides a brief summary of your device data. 
 
 ## Information it provides
 
 - Your timezone
-- Your operating system
+- Your O.S
 
-### Tools used
+### Future data to be added
+- Your device's uptime
+- Your location(City/State)
+
+#### Tools used
 
 ```
+JavaScript
 React
 Babel
 Animate.css
 
-```
-
-### Installing
-
-```
-npm install uPetitBio
-```
-
-#### Using it locally 
-
-```
-npm start
 ```

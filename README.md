@@ -1,15 +1,15 @@
 # uPetitBio
 
-Provides a brief summary of your device data. 
+Provides a brief summary for your location 
 
 ## Information it provides
 
-- Your timezone
-- Your O.S
+- Your current time and timezone you're in
 
 ### Future data to be added
-- Your device's uptime
 - Your location(City/State)
+- Current weather
+- Recent worldwide news
 
 #### Tools used
 

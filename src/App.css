@@ -2,21 +2,29 @@
 
 .App {
   text-align: center;
-  background-color: #9c0707;
+  background-color: #000000;
 
 }
-.App-header {
-  background-color: #9c0707;
-  height: 400px;
-  padding: 30px;
-  color: #FFFFFF;
+body {
+   background-color: #9c0707;
+   padding: 50px;
+   text-align: center;
+   border: 50px #FFFFFF;
 }
 
-
-
-/*
-Second
-*/
+#root {
+  background: #000000;
+  padding: 10px;
+  margin-left: 320px;
+  width: 600px;
+  height: 450px;
+  border-radius: 25px;
+}
+iframe {
+  width: 400px;
+  height: 120px;
+  background-color: #FFFFFF;
+}
 
 /*
 =================
@@ -27,16 +35,11 @@ Second
 body {
   overflow: hidden;
 }
-header {
-  top: 0%;
-  margin-bottom: -150px;
-}
+
 i {
   margin: 1000px 0px 0px 275px;
 }
-#bordr {
-  padding: 100px auto; 
-}
+
 /*
 =================
        Font
@@ -45,32 +48,22 @@ i {
 
 h1 {
   margin-top: -1px;
-
+  margin-bottom: -10px;
   font-family: 'Shrikhand';
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
-h2 {
-  padding-top: 10px;
-}
+
 h4 {
   font-family: 'Helvetica';
   text-align: center;
-  color: #000000;
-  font-size: 2rem;
+  color: #FFFFFF;
+  font-size: 1.3rem;
   padding-left: 30px;
   padding-right: 30px;
 }
-p {
-  font-family: 'Helvetica';
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 2vw;
-  margin-left: 100px;
-  padding: 0px 70px 0px 70px;
-  margin-right: 100px;
-}
+
 /*
 ================
     CSS animations
@@ -107,272 +100,31 @@ p {
   animation-duration: .75s;
 }
 
-@keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    transform: translate3d(0,0,0);
-  }
-
-  40%, 43% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -30px, 0);
-  }
-
-  70% {
-    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-    transform: translate3d(0, -15px, 0);
-  }
-
-  90% {
-    transform: translate3d(0,-4px,0);
-  }
-}
-
-.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
-}
-
-@keyframes flash {
-  from, 50%, to {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
-}
-
-.bounceIn {
-  animation-name: bounceIn;
-}
-
-@keyframes bounceInDown {
-  from, 60%, 75%, 90%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  0% {
-    opacity: 0;
-    transform: translate3d(0, -3000px, 0);
-  }
-
-  60% {
-    opacity: 1;
-    transform: translate3d(0, 25px, 0);
-  }
-
-  75% {
-    transform: translate3d(0, -10px, 0);
-  }
-
-  90% {
-    transform: translate3d(0, 5px, 0);
-  }
-
-  to {
-    transform: none;
-  }
-}
-
-.bounceInDown {
-  animation-name: bounceInDown;
-}
-
-@keyframes bounceInLeft {
-  from, 60%, 75%, 90%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  0% {
-    opacity: 0;
-    transform: translate3d(-3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    transform: translate3d(25px, 0, 0);
-  }
-
-  75% {
-    transform: translate3d(-10px, 0, 0);
-  }
-
-  90% {
-    transform: translate3d(5px, 0, 0);
-  }
-
-  to {
-    transform: none;
-  }
-}
-
-.bounceInLeft {
-  animation-name: bounceInLeft;
-}
-
-@keyframes bounceInRight {
-  from, 60%, 75%, 90%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
+@keyframes zoomIn {
   from {
-    opacity: 0;
-    transform: translate3d(3000px, 0, 0);
-  }
-
-  60% {
-    opacity: 1;
-    transform: translate3d(-25px, 0, 0);
-  }
-
-  75% {
-    transform: translate3d(10px, 0, 0);
-  }
-
-  90% {
-    transform: translate3d(-5px, 0, 0);
-  }
-
-  to {
-    transform: none;
-  }
-}
-
-.bounceInRight {
-  animation-name: bounceInRight;
-}
-
-@keyframes bounceInUp {
-  from, 60%, 75%, 90%, to {
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  from {
-    opacity: 0;
-    transform: translate3d(0, 3000px, 0);
-  }
-
-  60% {
-    opacity: 1;
-    transform: translate3d(0, -20px, 0);
-  }
-
-  75% {
-    transform: translate3d(0, 10px, 0);
-  }
-
-  90% {
-    transform: translate3d(0, -5px, 0);
-  }
-
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.bounceInUp {
-  animation-name: bounceInUp;
-}
-
-@keyframes bounceOut {
-  20% {
-    transform: scale3d(.9, .9, .9);
-  }
-
-  50%, 55% {
-    opacity: 1;
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-
-  to {
     opacity: 0;
     transform: scale3d(.3, .3, .3);
   }
-}
 
-.bounceOut {
-  animation-name: bounceOut;
-}
-
-@keyframes bounceOutDown {
-  20% {
-    transform: translate3d(0, 10px, 0);
-  }
-
-  40%, 45% {
+  50% {
     opacity: 1;
-    transform: translate3d(0, -20px, 0);
-  }
-
-  to {
-    opacity: 0;
-    transform: translate3d(0, 2000px, 0);
   }
 }
 
-.bounceOutDown {
-  animation-name: bounceOutDown;
+.zoomIn {
+  animation-name: zoomIn;
 }
 
-@keyframes bounceOutLeft {
-  20% {
-    opacity: 1;
-    transform: translate3d(20px, 0, 0);
-  }
-
-  to {
-    opacity: 0;
-    transform: translate3d(-2000px, 0, 0);
-  }
-}
-
-.bounceOutLeft {
-  animation-name: bounceOutLeft;
-}
-
-@keyframes bounceOutRight {
-  20% {
-    opacity: 1;
-    transform: translate3d(-20px, 0, 0);
-  }
-
-  to {
-    opacity: 0;
-    transform: translate3d(2000px, 0, 0);
-  }
-}
-
-.bounceOutRight {
-  animation-name: bounceOutRight;
-}
-
-@keyframes bounceOutUp {
-  20% {
-    transform: translate3d(0, -10px, 0);
-  }
-
-  40%, 45% {
-    opacity: 1;
-    transform: translate3d(0, 20px, 0);
-  }
-
-  to {
-    opacity: 0;
-    transform: translate3d(0, -2000px, 0);
-  }
-}
-
-.bounceOutUp {
-  animation-name: bounceOutUp;
-}
-
-@keyframes fadeIn {
+@keyframes zoomInDown {
   from {
     opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
   }
 
-  to {
+  60% {
     opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
   }
 }

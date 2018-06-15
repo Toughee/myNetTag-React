@@ -8,26 +8,14 @@ class App extends Component {
     return date.toTimeString();
   }
 
-  getBrowserData() {
-    const bData = navigator.userAgent;
-    return bData || 'Sorry. Your Browser Data is unavailable';
-  }
-
-  getOS() {
-    const osSys = navigator.platform;
-    return osSys || 'Your OS information was not found';
-  }
-  
   render() {
     return (
-      <div className="App animated bounceInUp">
-        <div className="App-header">
-                <h4>• Your current time is {this.getDate()}</h4>
-                <h4>• Your operating system is {this.getOS()}</h4>
-                {/*<h4>• Your browser is {this.getBrowserData()}</h4>
-                <h4>• Your browsers uptime is </h4>
-                <h4>• You are currently viewing uPetitBio at City/State</h4>*/}
-        </div>
+      <div className="App animated zoomIn">
+                <h4>🕒 Time: {this.getDate()}</h4>
+                <h4>🌎 Current address: </h4>
+                <h4>⛅ Weather: </h4>
+                <h4>📰 Current news:</h4>
+                <iframe></iframe>
       </div>
     );
   }

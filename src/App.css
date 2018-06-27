@@ -1,43 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Shrikhand');
-
-.App {
-  text-align: center;
-  background-color: #000000;
-
-}
-body {
-   background-color: #9c0707;
-   padding: 50px;
-   text-align: center;
-   border: 50px #FFFFFF;
-}
-
-#root {
-  background: #000000;
-  padding: 10px;
-  margin-left: 320px;
-  width: 600px;
-  height: 450px;
-  border-radius: 25px;
-}
-iframe {
-  width: 400px;
-  height: 120px;
-  background-color: #FFFFFF;
-}
-
 /*
 =================
        Body
 =================
 */
-
 body {
-  overflow: hidden;
+   background-color: #E73131;
+   padding: 50px;
+   text-align: center;
+   overflow: hidden;
 }
 
-i {
-  margin: 1000px 0px 0px 275px;
+#root {
+  background: #000000;
+  padding: 10px;
+  margin: 0px 320px 0px 320px;
+  width: 600px;
+  height: 450px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#tab {
+  text-align: center;
 }
 
 /*
@@ -55,19 +40,20 @@ h1 {
   font-size: 4.5rem;
 }
 
-h4 {
+h4, h4 a {
   font-family: 'Helvetica';
   text-align: center;
   color: #FFFFFF;
   font-size: 1.3rem;
   padding-left: 30px;
   padding-right: 30px;
+  text-decoration: none;
 }
 
 /*
-================
+=================================
     CSS animations
-================
+=================================
 */
 
 @charset "UTF-8";

@@ -1,21 +1,21 @@
 # uPetitBio
 
-Provides a brief summary for your current location 
+Provides a brief summary for your location. 
 
-## Information it provides:
+## Information it provides
 
-- Your current time and timezone you're in
-- Current news
+- Current time and timezone you're in
 
-### Future data to be added
-- Current weather and location using Open Weather API
+### Last update
+- Current Weather/City
 
-#### Tools used:
+#### Tools used
 
 ```
 JavaScript
 React
 Babel
+Animate.css
 Animate.css
 FeedGrabbr
 

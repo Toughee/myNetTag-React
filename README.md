@@ -5,17 +5,16 @@ Provides a brief summary for your location.
 ## Information it provides
 
 - Current time and timezone you're in
+- Current tech news
 
-### Last update
-- Current Weather/City
+### Last issues that need to be worked on
+- Responsive design for web page
+- Current Weather/City in your current location
 
 #### Tools used
 
 ```
-JavaScript
 React
-Babel
-Animate.css
 Animate.css
 FeedGrabbr
 
